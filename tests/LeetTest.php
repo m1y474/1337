@@ -12,6 +12,6 @@ class LeetTest extends TestCase
 
     public function testLeet文字に変換される()
     {
-        $this->assertSame('48c173f6h1jk1mn09q257uvwx72', Leet::generate('AbCdefGhiJkLmNOPQrStUVwxyZ'));
+        $this->assertSame('48c173f6h1jk1mn09q257uvwxy2', Leet::generate('AbCdefGhiJkLmNOPQrStUVwxyZ'));
     }
 }
